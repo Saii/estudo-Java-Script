@@ -1,0 +1,119 @@
+h1.cabecalho{
+    font-size: 60px;
+    background-color: rgb(120, 30, 60);
+    text-transform: uppercase;
+    font-style:inherit;
+    color:white;
+    font-family: "Arial","MonoSpace";
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 20px;
+    border-bottom: 10px solid;
+    border-color: black;
+}
+main h1{
+    clear: both;
+
+}
+.container{
+    margin: 0 auto;
+    width: 940px;
+}
+h2{
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    clear:both;
+}
+
+blockquote{
+    background-color: rgb(204, 204, 204);
+    border: 5px solid rgb(106, 107, 107);
+    padding: 16px;
+    width: 250px;
+    box-sizing: border-box;
+    margin: 0;
+
+}
+
+p{
+    text-align: justify;
+    margin: 20px 0;
+}
+
+body{
+    background-color: #F2FFFC;
+    font-family: "Crimson Text",serif;
+    font-size: 20px;
+
+}
+
+
+aside{
+    background-color: blueviolet;
+    color:white;
+    text-decoration: white;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav a{
+    color: inherit;
+}
+
+nav h1{
+    font-size: 30px;
+    margin-bottom: 25px;
+     
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    clear: both;
+}
+
+#redes-sociais li{
+    display: inline-block;
+    margin: 2px;
+}
+
+#redes-sociais a{
+    text-indent: -9999px;
+    width: 40px;
+    height: 27px;
+    display: inline-block;
+}
+.facebook{
+    background-image: url(img/fb1.png)
+}
+.youtube{
+    background-image: url(img/youtub1.png)
+}
+.instagram{
+    background-image: url(img/insta.png)
+}
+
+.joao{
+    float:left;
+    margin: 10px;
+}
+
+.marcus{
+    float:right;
+    margin: 10px;
+}
+
+aside,img{
+    float: right;
+    width: 15%;
+}
+ aside{
+     clear: right;
+     box-sizing: border-box;
+ }
+main{
+    float: left;
+    width: 85%;
+}

@@ -1,0 +1,155 @@
+
+/*cabeçalho, a posititon relative vai guiar nosso layout */
+
+header{
+    position: relative;
+}
+
+/*posicionamento do cabeçalho e estilo*/
+
+.sacola{
+    position: absolute;
+    top:0;
+    right: 0;
+    background-image: url("../img/sacola.png");
+    background-repeat: no-repeat;
+    background-position: top right;
+    font-size: 14px;
+    padding-right: 35px;
+    text-align: right;
+    width:140px;
+    padding-top: 8px;
+    
+}
+
+.menu-opcoes{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.menu-opcoes ul li{
+    font-size: 15px;
+    margin-left: 15px;
+    display: inline;
+
+}
+
+                                                
+.menu-opcoes a{
+    color: #003366;
+}
+
+/* Fim do cabeçalho */
+
+
+/* Menu Lateral de busca e navegação */
+.busca,.menu-departamento{
+    float: left;
+}
+
+.menu-departamento{
+     clear:left;
+}
+
+#menu-nav h2{
+    color:black;
+    text-decoration-style: solid;
+    font-style: italic;
+    font-size: 20px;
+
+}
+#menu-nav a{
+    color:black;
+    text-decoration: none;
+    
+}
+
+#menu-nav li{
+    background-color: whitesmoke;
+    margin-bottom: 5px;
+}
+.menu-departamento{
+	background-color: #DCDCDC;
+    text-transform: uppercase;
+    margin-right: 10px;
+    padding: 5px; 
+    width: 240px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+.busca input[type=search]	{
+    width: 170px;
+}
+.busca h2,.busca form, .menu-departamento h2	{
+    margin: 10px;
+                                        
+                                        }
+
+                                        
+/* container contem o menu busca e a navegação lateral */
+#container-destaque	{
+position: relative;
+margin: 50px;
+}
+
+
+/*fim do menu lateral de navegação*/
+
+/*painel de novidades e mais vendidos*/
+.painel li	{
+    display:	inline-block;
+    vertical-align:	top;
+    width: 140px;
+    margin: 2px;
+    padding-bottom: 10px;
+}
+
+.painel	{
+    margin: 10px 0;
+    padding: 10px;
+    width: 445px;
+}
+.novidades	{
+    float:	left;
+}
+.mais-vendidos	{
+    float:	right;
+}
+.painel h2	{
+    font-size: 24px;
+    font-weight:	bold;
+    text-transform:	uppercase;
+    margin-bottom: 10px;
+}
+.painel a	{
+    color: #333;
+    font-size: 14px;
+    text-align:	center;
+    text-decoration:	none;
+}
+.novidades	{
+    background-color: #F5DCDC;
+}
+.mais-vendidos	{
+    background-color: #DCDCF5;
+}
+
+/*fim do painel de novidades e mais vendidos*/
+
+
+
+
+
+
+
+body	{
+    color: #333333;
+    font-family: "Lucida	Sans	Unicode",	"Lucida	Grande",	sans-serif;
+}
+
+.container	{
+    margin: 0	auto;
+    width: 940px;
+    }
+

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+	</head>
+
+<body>
+
+<h2>Calcular idade</h2>
+<h3><dl>
+		<dt>HTML</dt>
+		<dd>
+				HTML	é	a	linguagem	de	marcação	de	textos	utilizada
+				para	exibir	textos	como	páginas	na	Internet.
+		</dd>
+		<dt>Navegador</dt>
+		<dd>
+				Navegador	é	o	software	que	requisita	um	documento	HTML
+2.18	LISTAS	HTML
+.
+				através	do	protocolo	HTTP	e	exibe	seu	conteúdo	em	uma
+				janela.
+		</dd>
+	</dl>
+</h3>
+<p id="resultado1"></p>
+<p id="resultado2"></p>
+<p id="but"></p>
+<p id="for"></p>
+<p id="switch"></p>
+<p id="woo"></p>
+<p id="gaveteiro"></p>
+<p id="album"></p>
+
+<button onclick="som()">Somar</button>
+<button onclick="pintar()">Pintar</button>
+<button onclick="teste()">For</button>
+<button onclick="enquanto()">While</button>
+<button onclick="gaveta()">encher gaveta</button>
+<button onclick="mostrarAlbum()">album</button>
+<script>
+
+		var album={
+			title:"Queen",
+			released:1991,
+			showInfo: function(){
+				alert("Titulo do album:  " + this.title +" "+ "Lancado em: " + this.released+""+this.tracks);
+								}
+				}
+
+	document.getElementById('resultado1').innerHTML= somar(1,2);
+	document.getElementById('resultado2').innerHTML=somar(5,5);S
+
+	function somar(x,y){
+		z=x+y;
+		return x+y;
+		
+		
+	}
+	function mostrarAlbum(){
+		album.showInfo();
+		album.tracks=["1","2","4"];
+		album.showInfo();
+
+	}
+	function som(){
+		document.getElementById('but').innerHTML=somar(9,5);
+		
+		if(z>10){
+			document.getElementById('if').innerHTML="z eh maior que 10";
+	} else{
+		document.getElementById('if').innerHTML="z eh menor que 10";
+	}
+		
+	}
+
+	function pintar(){
+		var tinta= 'verde';
+
+		switch (tinta){
+			case 'azul':
+			document.getElementById('switch').innerHTML="Vou pintar de azul"
+			break;
+			case 'amarelo':
+			document.getElementById('switch').innerHTML="vou pintar de amarelo"
+			break;
+			default:
+			document.getElementById('switch').innerHTML="Não vou pintar"
+			break;
+		}
+	}
+
+	function teste(){
+		for(i=0;i<=100;i++){
+			document.getElementById('for').innerHTML=i;
+		}
+	}
+
+	function enquanto(){
+		x=1;
+		while(x<100){
+			document.getElementById('woo').innerHTML=x;
+			x++;
+		} 
+	}
+
+	function gaveta(){
+			var gaveteiro=[0,1,2,4,5];
+			gaveteiro.pop();
+			gaveteiro.pop();
+			document.getElementById('gaveteiro').innerHTML=gaveteiro.length;
+						
+		}
+
+	
+	
+	
+		</script>
+
+</body>
+</html>
