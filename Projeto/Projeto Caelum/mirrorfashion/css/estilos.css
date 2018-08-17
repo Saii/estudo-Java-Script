@@ -1,9 +1,5 @@
 
-/*cabeçalho, a posititon relative vai guiar nosso layout */
 
-header{
-    position: relative;
-}
 
 /*posicionamento do cabeçalho e estilo*/
 
@@ -23,7 +19,6 @@ header{
 }
 
 .menu-opcoes{
-    position: absolute;
     bottom: 0;
     right: 0;
 }
@@ -86,17 +81,21 @@ header{
                                         
                                         }
 
-                                        
+                                     
 /* container contem o menu busca e a navegação lateral */
 #container-destaque	{
-position: relative;
 margin: 50px;
+box-sizing: border-box;
+margin-left: 12em;
 }
 
 
 /*fim do menu lateral de navegação*/
 
 /*painel de novidades e mais vendidos*/
+.container-paineis{
+    clear:both;
+}
 .painel li	{
     display:	inline-block;
     vertical-align:	top;
@@ -105,22 +104,27 @@ margin: 50px;
     padding-bottom: 10px;
 }
 
+.painel ol{
+    padding-left: 5em;
+}
+
 .painel	{
     margin: 10px 0;
     padding: 10px;
-    width: 445px;
+    width: 50%;
 }
 .novidades	{
     float:	left;
 }
 .mais-vendidos	{
-    float:	right;
+    float:	left;
 }
 .painel h2	{
     font-size: 24px;
     font-weight:	bold;
     text-transform:	uppercase;
     margin-bottom: 10px;
+    margin-left: 80px;
 }
 .painel a	{
     color: #333;
@@ -130,9 +134,11 @@ margin: 50px;
 }
 .novidades	{
     background-color: #F5DCDC;
+    box-sizing: border-box;
 }
 .mais-vendidos	{
     background-color: #DCDCF5;
+    box-sizing:border-box;
 }
 
 /*fim do painel de novidades e mais vendidos*/
@@ -153,3 +159,7 @@ body	{
     width: 940px;
     }
 
+.footer{
+    background-color: black;
+    clear: both;
+}
